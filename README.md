@@ -46,6 +46,11 @@ Note on courses, you want to focus on implementing and wrtiting as many models a
 ## Skills Checklist & TensorFlow Examples
 Collection of TensorFlow Models I built while studying for the exam. For each model I mapped the skills requirements from the TensorFlow study handbook.
 1. Tensorflow Basics. Code. Kaggle Notebook.
+Regression
+https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/data
+Classification
+https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection
+
     - Building, compiling, training, evaluating models for binary and muilti- classification
     - Identifying and mitigating overfitting
     - Plotting loss and accuracy
@@ -53,18 +58,29 @@ Collection of TensorFlow Models I built while studying for the exam. For each mo
     - Using early stopping callbacks
     - Using datasets from tensorflow datasets
 2. Image Classification. Code. Kaggle Notebook.
+
+https://www.kaggle.com/c/plant-pathology-2020-fgvc7/overview
+- 1 vs many (binary problem)
+- Full multi-classification
+
     - Using Conv2D and MaxPooling Layers
     - Understanding how convolutions improve image the nerual network
     - Using image augmentation and improving overfitting
     - Use ImageDataGenerator and the directory labelling structure
     - Using transfer learning and model checkpoints
 3. Natural Language Processing. Code. Kaggle Notebook.
+
+https://www.kaggle.com/c/tweet-sentiment-extraction
+https://www.kaggle.com/c/quora-insincere-questions-classification
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
+https://www.kaggle.com/c/whats-cooking-kernels-only/overview/evaluation
+
     - Prepare text for use in a TensorFlow model
     - Use TensorFlow to identify text in binary and multi-class categorization.
     - Use RNNs, LSTMs, and GRUs
     - Train word embeddings and import word embedding weights
     - Train LSTMs on existing text and generate text
-4. Comparing TensorFlow Models in a Time Series Forecasting Task. Code. Kaggle Notebook.
+4. Comparing TensorFlow Models in a Time Series Forecasting Task. Code. [Kaggle Notebook](https://www.kaggle.com/nicholasjhana/multi-variate-time-series-forecasting-tensorflow).
     - Using RNNs and CNNs in forecasting.
     - Identify when to use trailing and centred windows
     - Adjusting the learning rate with a Learning Rate Scheduler
