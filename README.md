@@ -86,7 +86,6 @@ The following summarizes the major topic areas of the exam including core skills
 4. [Cassava Leaf Disease - Starter Notebook](https://www.kaggle.com/lavanyask/cassava-leaf-disease-starter-notebook)
 5. [Gettting Started with 100 Flowers on TPU](https://www.kaggle.com/mgornergoogle/getting-started-with-100-flowers-on-tpu)
 
-
 ***Study Datasets***
 1. [Plant Pathology Multi Classification](https://www.kaggle.com/c/plant-pathology-2020-fgvc7/overview)
 2. [Pokemon Image Dataset](https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types)
@@ -95,39 +94,65 @@ The following summarizes the major topic areas of the exam including core skills
 
 ### 3. Natural Language Processing
 ***Core Skills***
-
-https://www.kaggle.com/c/tweet-sentiment-extraction
-https://www.kaggle.com/c/quora-insincere-questions-classification
-https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
-https://www.kaggle.com/c/whats-cooking-kernels-only/overview/evaluation
-
-***Example Notebooks***
-
-***Study Datasets***
-
-https://www.kaggle.com/foucardm/tensorflow-certification-guide-text-data
-
-
-    - Prepare text for use in a TensorFlow model
-    - Use TensorFlow to identify text in binary and multi-class categorization.
-    - Use RNNs, LSTMs, and GRUs
-    - Train word embeddings and import word embedding weights
-    - Train LSTMs on existing text and generate text
-4. Comparing TensorFlow Models in a Time Series Forecasting Task. Code. [Kaggle Notebook](https://www.kaggle.com/nicholasjhana/multi-variate-time-series-forecasting-tensorflow).
-    - Using RNNs and CNNs in forecasting.
-    - Identify when to use trailing and centred windows
-    - Adjusting the learning rate with a Learning Rate Scheduler
-    - Preparing features and labels
-    - Identify and compensate Sequence Bias
+- Prepare text for use in a TensorFlow model
+- Use TensorFlow to identify text in binary and multi-class categorization.
+- Use RNNs, LSTMs, and GRUs
+- Train word embeddings and import word embedding weights
+- Train LSTMs on existing text and generate text
 
 ***Example Notebooks***
+1. [TensorFlow: Binary Classification on Text](https://www.kaggle.com/nicholasjhana/tensorflow-binary-classification-on-text)
+2. [https://www.kaggle.com/foucardm/tensorflow-certification-guide-text-data](https://www.kaggle.com/foucardm/tensorflow-certification-guide-text-data)
+3. [Keras Starter Script with Word Embeddings](https://www.kaggle.com/sudalairajkumar/keras-starter-script-with-word-embeddings)
+4. [Using Word Embeddings for Data Augmentation](https://www.kaggle.com/theoviel/using-word-embeddings-for-data-augmentation)
+5. [Reuter News Exploratory Data Analysis (Word Embeddings and Sentiment Analysis)](https://www.kaggle.com/hoonkeng/deep-eda-word-embeddings-sentiment-analysis)
+6. [Text2Score >> keras RNN + Word Embedding](https://www.kaggle.com/gidutz/text2score-keras-rnn-word-embedding)
 
 ***Study Datasets***
+1. [Tweet Sentiment Extraction](https://www.kaggle.com/c/tweet-sentiment-extraction)
+2. [Quora Insincere Questions Classification](https://www.kaggle.com/c/quora-insincere-questions-classification)
+3. [Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+4. [What's Cooking?](https://www.kaggle.com/c/whats-cooking-kernels-only/overview/evaluation)
+5. [Tensorflow Official Text Datasets](https://www.kaggle.com/imoore/tensorflow-official-text-datasets)
 
+### 4. Timeseries Forecasting
+***Core Skills***
+- Using RNNs and CNNs in forecasting.
+- Identify when to use trailing and centred windows
+- Adjusting the learning rate with a Learning Rate Scheduler
+- Preparing features and labels
+- Identify and compensate Sequence Bias
 
+***Example Notebooks***
+1. [Multi-variate timeseries forecasting in TensorFlow](https://www.kaggle.com/nicholasjhana/multi-variate-time-series-forecasting-tensorflow)
+2. [TensorFlow certification timeseries](https://www.kaggle.com/foucardm/tensorflow-certification-time-series)
+3. [Deep Learning for Time Series Forecasting](https://www.kaggle.com/dimitreoliveira/deep-learning-for-time-series-forecasting)
+4. [Univariate timeseries forecasting with keras](https://www.kaggle.com/nicholasjhana/univariate-time-series-forecasting-with-keras)
+5. [Time-series forecasting with LSTM autoencoders](https://www.kaggle.com/dimitreoliveira/time-series-forecasting-with-lstm-autoencoders)
 
-https://www.kaggle.com/foucardm/tensorflow-certification-time-series
-
+***Study Datasets***
+1. [Temperature Time-Series for some Brazilian cities](https://www.kaggle.com/volpatto/temperature-timeseries-for-some-brazilian-cities)
+2. [Population Time Series Data](https://www.kaggle.com/census/population-time-series-data)
+3. [Daily Climate time series data](https://www.kaggle.com/sumanthvrao/daily-climate-time-series-data)
+4. [Hourly energy demand generation and weather](https://www.kaggle.com/nicholasjhana/energy-consumption-generation-prices-and-weather)
 
 ## TensorFlow Inputs and Outputs Table
-In development.
+This table summarises the majority of input and model configurations for each type of classification/regression task. Helpful as a quick reference while working on problems. Original version [here](https://www.kaggle.com/nicholasjhana/tensorflow-guide-to-getting-started/edit/run/46427918).
+
+***Inputs***
+Input shapes depend on the type of problem and network architecture. Input shape can be defined in the first layer of the network either calling the `input_shape` parameter or using the `tf.keras.layers.Input` class.
+
+| Data Type | Input Shape |
+| --- | --- |
+| Image | (image height, image width, number of channels) |
+| Sequence | (number of sequence steps, number of features) |
+| Structured |  |
+
+***Outputs***
+| Problem Type | Output Neurons | Target Format | Loss Type | Last Neuron Activation |
+| --- | --- | --- | --- | --- |
+| Binary Classification | 1 | Binary | binary_crossentropy |sigmoid|
+| Multi Classification | Number of classes | One-Hot Encoded | categorical_crossentropy |softmax|
+| Multi Classification | Number of classes | Label Encoded | sparse_categorical_crossentropy|softmax|
+| Regression | Number of predictions | Numeric | Any regression metric: MSE/RMSE/MSLE/Huber |None|
+
