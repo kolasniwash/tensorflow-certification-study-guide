@@ -140,15 +140,15 @@ The following summarizes the major topic areas of the exam including core skills
 This table summarises the majority of input and model configurations for each type of classification/regression task. Helpful as a quick reference while working on problems. Original version [here](https://www.kaggle.com/nicholasjhana/tensorflow-guide-to-getting-started/edit/run/46427918).
 
 ***Inputs***
-Input shapes depend on the type of problem and network architecture. Input shape can be defined in the first layer of the network either calling the `input_shape` parameter or using the `tf.keras.layers.Input` class.
 
 | Data Type | Input Shape |
 | --- | --- |
 | Image | (image height, image width, number of channels) |
 | Sequence | (number of sequence steps, number of features) |
-| Structured |  |
+| Structured | (samples/batch size, features) |
 
 ***Outputs***
+
 | Problem Type | Output Neurons | Target Format | Loss Type | Last Neuron Activation |
 | --- | --- | --- | --- | --- |
 | Binary Classification | 1 | Binary | binary_crossentropy |sigmoid|
