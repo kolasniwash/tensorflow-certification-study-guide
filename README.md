@@ -2,31 +2,27 @@
 
 This is repo is in development. It is used to keep resources, course references, and code examples while preparing for the TensorFlow Developer Certification exam. If the work here helps you in some way please feel free to share, fork, or star.
 
+:star2: Recommended Resource 
+
 
 ## Getting Started
 
 ### TensorFlow Guide
-Strongly recommend reading the following documents before starting.
-TensorFlow Certificate Home
-https://www.tensorflow.org/certificate
-
-Environment Setup
-https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf?authuser=4
-
-Certificate Handbook
-https://www.tensorflow.org/extras/cert/TF_Certificate_Candidate_Handbook.pdf
+The following documents are issued by the Tensorflow Developemnt Ceritifcation website. They outline everything tested on the exam, how the exam is conducted, how to register, and how you can prepare.
+- [TensorFlow Certificate Home](https://www.tensorflow.org/certificate)
+- [Environment Setup:](https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf?authuser=4) Exam takes place in a PyCharm environment. 
+- [Certificate Handbook](https://www.tensorflow.org/extras/cert/TF_Certificate_Candidate_Handbook.pdf) :star2:
 
 ### Blog Articles
-The following blog articles helped get an idea what others did in terms of study for the exam.
+Below is a list of blog articles that help get an idea what others did in terms of study for the exam.
+- [How I passed the certified tensorflow developer exam, Harshi Tyagi](https://www.freecodecamp.org/news/how-i-passed-the-certified-tensorflow-developer-exam/) Does a good job breaking down his study plan, and reviews each course he completed. Find his resource list [here](https://www.notion.so/15049893501f4387893a5de0059ef8a5?v=9154c52a61494668b12802f157bce0d4)
+- [How I passed the tensorflow developer certification exam, Daniel Bourke](https://towardsdatascience.com/how-i-passed-the-tensorflow-developer-certification-exam-f5672a1eb641) Any blog article by Daniel Bourke is going to help you get motivated to learn and acheive. Somewhat of a rehash of the previous article, still a quality resource for learning about the exam. He also discusses what happens during the exam and shares his personal exam curriculum in another post [My Machine Learning Curriculum for May 2020: Getting TensorFlow Developer Certified](https://www.mrdbourke.com/ml-study-may-2020/)
+- [I just passed the TensorFlow certification...here are some tips for you, Roberto Barbero](https://medium.com/@rbarbero/tensorflow-certification-tips-d1e0385668c8) Roberto's perspective on the exam is personal, fresh, and insightful. Recommended for his commentary on how to work through problems as they arrise on the exam.
 
-This was the first article I found that inspired me to take on the exam. Thanks Harshit!
-https://www.freecodecamp.org/news/how-i-passed-the-certified-tensorflow-developer-exam/
+## Discussions
+Inital post outlining major examp topics [Link to discussion](https://www.kaggle.com/questions-and-answers/183715)
 
-Have followed Daniel Bourke's content since I started into Machine Learning.
-https://towardsdatascience.com/how-i-passed-the-tensorflow-developer-certification-exam-f5672a1eb641
-
-Roberto's perspective on the exam is personal, fresh, and insightful.
-https://medium.com/@rbarbero/tensorflow-certification-tips-d1e0385668c8
+Review of how to study, what to study, and answers to questions about the exam. [Link to discussion](https://www.kaggle.com/questions-and-answers/196276) :star2:
 
 ## Courses
 Note on courses, you want to focus on implementing and wrtiting as many models as possible with TensorFlow. The couses below were the ones I found to have the most hands on content.
