@@ -60,32 +60,50 @@ The following summarizes the major topic areas of the exam including core skills
 - Using datasets from tensorflow datasets
 
 ***Example Notebooks***
-1. [TensorFlow guide to getting started: Classification Task](https://www.kaggle.com/nicholasjhana/tensorflow-guide-to-getting-started)
+1. [TensorFlow guide to getting started: TF Record & Classification](https://www.kaggle.com/nicholasjhana/tensorflow-guide-to-getting-started)
+2. [TensorFlow Basics and Fundamentals](https://www.kaggle.com/rohandx1996/tensorflow-basics-and-fundamentals)
+3. [TF Record Basics](https://www.kaggle.com/ryanholbrook/tfrecords-basics)
 
 ***Study Datasets***
 1. [TensorFlow Dataset Catalog](https://www.tensorflow.org/datasets/catalog/overview)
 2. [Mercedes Benz Manufacturign: Regression Task](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/data)
 3. [Fraud Detection: Classification Task](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection)
+4. [Oranges vs. Grapefruit](https://www.kaggle.com/joshmcadams/oranges-vs-grapefruit)
 
 ### 2. Image Classification
+***Core Skills***
+- Binary- and multi-classification tasks
+- Using Conv2D and MaxPooling Layers
+- Understanding how convolutions improve image the nerual network
+- Using image augmentation and improving overfitting
+- Use ImageDataGenerator and the directory labelling structure
+- Using transfer learning and model checkpoints
 
-https://www.kaggle.com/c/plant-pathology-2020-fgvc7/overview
-- 1 vs many (binary problem)
-- Full multi-classification
+***Example Notebooks***
+1. [Tensorflow Multi Classification Transfer Learning](https://www.kaggle.com/nicholasjhana/tensorflow-multi-classification-transfer-learning)
+2. [Basic Image Classification: Tensorflow and Keras](https://www.kaggle.com/mansi75/basic-image-classification-tensorflow-and-keras)
+3. [Plant Pathology 2020 : EDA + Models](https://www.kaggle.com/tarunpaparaju/plant-pathology-2020-eda-models#Modeling-)
+4. [Cassava Leaf Disease - Starter Notebook](https://www.kaggle.com/lavanyask/cassava-leaf-disease-starter-notebook)
+5. [Gettting Started with 100 Flowers on TPU](https://www.kaggle.com/mgornergoogle/getting-started-with-100-flowers-on-tpu)
 
-    - Using Conv2D and MaxPooling Layers
-    - Understanding how convolutions improve image the nerual network
-    - Using image augmentation and improving overfitting
-    - Use ImageDataGenerator and the directory labelling structure
-    - Using transfer learning and model checkpoints
-3. Natural Language Processing. Code. Kaggle Notebook.
+
+***Study Datasets***
+1. [Plant Pathology Multi Classification](https://www.kaggle.com/c/plant-pathology-2020-fgvc7/overview)
+2. [Pokemon Image Dataset](https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types)
+3. [Cats Vs. Dogs Image Dataset](https://www.kaggle.com/shaunthesheep/microsoft-catsvsdogs-dataset)
+4. [Rock-Paper-Scissors Images](https://www.kaggle.com/drgfreeman/rockpaperscissors)
+
+### 3. Natural Language Processing
+***Core Skills***
 
 https://www.kaggle.com/c/tweet-sentiment-extraction
 https://www.kaggle.com/c/quora-insincere-questions-classification
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 https://www.kaggle.com/c/whats-cooking-kernels-only/overview/evaluation
 
+***Example Notebooks***
 
+***Study Datasets***
 
 https://www.kaggle.com/foucardm/tensorflow-certification-guide-text-data
 
@@ -101,6 +119,12 @@ https://www.kaggle.com/foucardm/tensorflow-certification-guide-text-data
     - Adjusting the learning rate with a Learning Rate Scheduler
     - Preparing features and labels
     - Identify and compensate Sequence Bias
+
+***Example Notebooks***
+
+***Study Datasets***
+
+
 
 https://www.kaggle.com/foucardm/tensorflow-certification-time-series
 
