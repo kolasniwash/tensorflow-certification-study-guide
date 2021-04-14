@@ -18,7 +18,7 @@ The following documents are issued by the Tensorflow Developemnt Ceritifcation w
 
 ### TensorFlow Intro
 - [Ultimate Guide To TensorFlow 2.0](https://rubikscode.net/2019/04/22/ultimate-guide-to-tensorflow-2-0-in-python/): A good genric intro to TensorFlow 2.0 with an example on the Iris Dataset.
-- Effective TF2](https://www.tensorflow.org/guide/effective_tf2): Google's detailed and indepth guide to all things TensorFlow 2.0. :bulb: 
+- [Effective TF2](https://www.tensorflow.org/guide/effective_tf2): Google's detailed and indepth guide to all things TensorFlow 2.0. :bulb: 
 
 ### Blog Articles
 Below is a list of blog articles that help get an idea what others did in terms of study for the exam.
