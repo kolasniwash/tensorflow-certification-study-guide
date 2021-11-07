@@ -32,6 +32,8 @@ Below is a list of blog articles that help get an idea what others did in terms 
 [I just passed the TensorFlow certification...here are some tips for you, Roberto Barbero](https://medium.com/@rbarbero/tensorflow-certification-tips-d1e0385668c8) 
 - Roberto's perspective on the exam is personal, fresh, and insightful. Recommended for his commentary on how to work through problems as they arrise on the exam.
 
+[TensorFlow developer certification, brief study guide](https://www.linkedin.com/pulse/tensorflow-developer-certification-vivek-bombatkar/)
+
 ## Discussions
 1. [Outline of exam topics detailed](https://www.kaggle.com/questions-and-answers/183715)
 2. [Summary and description of how one Kaggler passed the TF certification](https://www.kaggle.com/questions-and-answers/196276) :bulb:
